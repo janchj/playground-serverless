@@ -8,10 +8,9 @@ The idea so far:
         - npm install -g serverless
         - npm install
 
-    - Configure AWS credentials:
-    [What do you mean by credentials?] (https://serverless.com/framework/docs/providers/aws/guide/credentials)
-    Once you got them, run the following command:
-    `serverless config credentials --provider aws --key {yourKey} --secret {yourSecret}`
+    - Configure AWS credentials: [https://serverless.com/framework/docs/providers/aws/guide/credentials]
+        Once you got them, run the following command:
+        `serverless config credentials --provider aws --key {yourKey} --secret {yourSecret}`
 
 # Deployment
     - serverless deploy -v -> to deploy all functions
@@ -21,8 +20,3 @@ The idea so far:
 # Handy things
     - serverless remove -> removes all the deployed function(s)
     - serverless invoke -f hello -l -> call a function
-
-    - url:
-        https://aws-nodejs-dev-hello.execute-api.us-east-1.amazonaws.com/dev/hello
-
-        
