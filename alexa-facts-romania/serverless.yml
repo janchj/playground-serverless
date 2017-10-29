@@ -1,0 +1,11 @@
+service: aws-nodejs-getFact
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-west-1
+
+functions:
+  alexa-facts-romania:
+    handler: main.handler
+    events:
+      - alexaSkill

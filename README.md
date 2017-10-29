@@ -1,7 +1,24 @@
 # playground-serverless
 
 The idea so far:
-    connect alexa to personal google account to get list of upcoming birthdays/events
+    - wunderlist
+        - list of recipes
+    - ocado
+        - add item to basket
+    - price watch
+
+        What do you need?
+            - name
+            - startDate
+            - endDate
+            - peopleCount
+
+        Sources:
+            - hotels.com
+            - bookings.com
+            - kayak.com
+            - expedia.com
+            - trivago.com
 
 # Ceremony:
     - Install packages:
@@ -20,3 +37,5 @@ The idea so far:
 # Handy things
     - serverless remove -> removes all the deployed function(s)
     - serverless invoke -f hello -l -> call a function
+
+    url: https://{name}.amazonaws.com/{functionName}'
