@@ -1,25 +1,5 @@
 # playground-serverless
 
-The idea so far:
-    - wunderlist
-        - list of recipes
-    - ocado
-        - add item to basket
-    - price watch
-
-        What do you need?
-            - name
-            - startDate
-            - endDate
-            - peopleCount
-
-        Sources:
-            - hotels.com
-            - bookings.com
-            - kayak.com
-            - expedia.com
-            - trivago.com
-
 # Ceremony:
     - Install packages:
         - npm install -g serverless
