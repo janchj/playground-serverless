@@ -1,0 +1,20 @@
+// set price watch
+    ## FLIGHTS
+    // "price watch a flight
+        // from where?
+            // lookup airport code from city?
+        // to where?
+            // lookup airport code from city?
+        // departing on?
+        // one way?
+            // returning on?
+        // how many passengers?
+    ## HOTELS
+    // "price watch the HOTEL NAME between START and END UNDER #"
+        // Send email?
+        // 
+
+
+
+    ## APIs
+    https://skypickerpublicapi.docs.apiary.io
